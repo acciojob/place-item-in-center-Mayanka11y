@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+/* Ensure the holder takes the full viewport width and height */
+.holder {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for item-1 */
+.item-1 {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    background-color: red; /* Red background color */
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    color: white; /* Optional: Change text color for better visibility */
+    font-family: Arial, sans-serif; /* Optional: Set font */
+}
